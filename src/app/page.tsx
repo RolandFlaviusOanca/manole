@@ -102,7 +102,8 @@ export default function Home() {
         </p>
         <div className="h-10" />
 
-        <p className="text-5xl text-center">🌿🌿🌿🌿🌿🌿🌿🌿</p>
+             <p className="text-3xl text-center">🌿🌿🌿🌿🌿</p>
+
 
         <div className="h-10" />
 
@@ -116,7 +117,7 @@ export default function Home() {
         />
         <div className="h-10" />
 
-        <p className="text-5xl text-center">🌿🌿🌿🌿🌿🌿🌿🌿</p>
+        <p className="text-3xl text-center">🌿🌿🌿🌿🌿</p>
 
         <div className="h-10" />
 
