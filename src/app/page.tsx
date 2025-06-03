@@ -102,8 +102,7 @@ export default function Home() {
         </p>
         <div className="h-10" />
 
-             <p className="text-3xl text-center">🌿🌿🌿🌿🌿</p>
-
+        <p className="text-3xl text-center">🌿🌿🌿🌿🌿</p>
 
         <div className="h-10" />
 
@@ -141,16 +140,6 @@ export default function Home() {
               tremurată), iar lumea deja mă privea ca pe o vedetă.
             </p>
             <div className="h-4" />
-
-            <p className="text-lg md:pl-6 lg:pl-6">
-              A fost primul meu pas în lume, prima plimbare, prima bătaie de
-              vânt pe obrăjori. Eu, însă, am ținut să-mi fac simțită prezența și
-              am plâns puțin, doar ca să fiu sigură că toți ochii rămân pe mine.
-              În brațele mamei, drumul spre casă a fost plin de căldură și
-              iubire. A fost o zi pe care nu o voi uita (deși recunosc că am
-              ațipit imediat ce am ajuns în pătuțul meu 😊).
-            </p>
-            <div className="h-2" />
             <p className="text-lg md:pl-6 lg:pl-6">
               Încă de la început am știut să-mi aleg părinții cu grijă:{" "}
               <span className="highlight text-xl">Raluca</span> și{" "}
@@ -158,14 +147,8 @@ export default function Home() {
               care e organizată, atentă la detalii, și tati, spontan, cu capul
               plin de idei, Formula 1, fotbal și… politică.
             </p>
-          </div>
-        </div>
-
-        <div className="md:flex md:felx-row lg:flex lg:felx-row gap-2 px-2">
-          <div className="md:w-1/2 lg:w-3/5">
-            <div className="h-8" />
-
-            <p className="text-lg md:pr-6 lg:pr-6">
+            <div className="h-2" />
+            <p className="text-lg md:pl-6 lg:pl-6">
               A fost primul meu pas în lume, prima plimbare, prima bătaie de
               vânt pe obrăjori. Eu, însă, am ținut să-mi fac simțită prezența și
               am plâns puțin, doar ca să fiu sigură că toți ochii rămân pe mine.
@@ -173,13 +156,26 @@ export default function Home() {
               iubire. A fost o zi pe care nu o voi uita (deși recunosc că am
               ațipit imediat ce am ajuns în pătuțul meu 😊).
             </p>
-            <div className="h-2" />
+          </div>
+        </div>
+
+        <div className="md:flex md:felx-row lg:flex lg:felx-row gap-2 px-2">
+          <div className="md:w-1/2 lg:w-3/5">
+            <div className="h-8 lg:h-10 md:h-10" />
+
             <p className="text-lg md:pr-6 ">
               Se spune că fiecare copil primește o pereche de îngeri păzitori
               aici pe pământ. Eu am avut noroc dublu: i-am primit pe{" "}
               <span className="highlight text-xl">Hamude</span> și{" "}
               <span className="highlight text-xl">Iulia</span>.
             </p>
+            <div className="h-2 lg:h-10 md:h-10" />
+
+                 <p className="text-lg md:pr-6 lg:pr-6">
+            Oameni minunați, care știu mereu să spună cuvintele potrivite, să
+            aducă liniște, zâmbete și sfaturi bune chiar și când adulții par
+            pierduți prin hățișul vieții de zi cu zi.
+          </p>
           </div>
           <div className=" md:w-2/5 lg:w-1/2">
             <Image
@@ -192,13 +188,9 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="h-4" />
+        <div className="h-4 lg:h-8" />
         <div className="px-2">
-          <p className="text-lg md:pr-6 lg:pr-6">
-            Oameni minunați, care știu mereu să spună cuvintele potrivite, să
-            aducă liniște, zâmbete și sfaturi bune chiar și când adulții par
-            pierduți prin hățișul vieții de zi cu zi.
-          </p>
+
           <p className="text-xl md:pr-6 lg:pr-6">
             <em>
               El – calm, înțelept, cu o privire care parcă zice: „stai liniștit,
@@ -207,11 +199,15 @@ export default function Home() {
               Ea – caldă, blândă, cu inima cât o zi de vară.
             </em>
           </p>
+            <div className="h-2 lg:h-10 md:h-10" />
+
           <p className="text-lg md:pr-6 lg:pr-6">
             Când mami și tati i-au întrebat dacă vor să fie nașii mei, nici n-au
             clipit. N-au cerut timp de gândire. N-au întrebat “dar sigur?”, “dar
             sunteți pregătiți?”.
           </p>
+            <div className="h-2 lg:h-8 md:h-8" />
+          
           <p className="text-xl md:pr-6 lg:pr-6 pt-2">
             <b>
               {" "}
@@ -222,6 +218,8 @@ export default function Home() {
               </em>
             </b>
           </p>
+            <div className="h-2 lg:h-10 md:h-10" />
+
           <p className="text-lg md:pr-6 lg:pr-6">Și s-a simțit. 💚</p>
           <p className="text-lg md:pr-6 lg:pr-6">
             Așa că uite-ne aici, toți cinci – eu, mami, tati, și nașii mei dragi
@@ -235,7 +233,8 @@ export default function Home() {
             Sper doar că au știut ce fac… Eu plâng tare, mănânc mult și am deja
             gusturi sofisticate la bavețele. 😋
           </p>
-          <div className="h-4" />
+            <div className="h-2 lg:h-10 md:h-10" />
+
           <Image
             src="/2.jpg"
             alt="Ieșirea din spital"
@@ -337,9 +336,7 @@ export default function Home() {
                   className="w-full bg-white border border-gray-300 rounded px-3 py-2 h-10"
                 />
 
-                <label htmlFor={`persoane[${index}].participare`}>
-                  Meniu:
-                </label>
+                <label htmlFor={`persoane[${index}].participare`}>Meniu:</label>
                 <Controller
                   control={control}
                   name={`persoane.${index}.participare`}
