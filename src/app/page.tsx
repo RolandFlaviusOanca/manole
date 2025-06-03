@@ -115,6 +115,15 @@ export default function Home() {
           priority
         />
         <div className="h-10" />
+               <p className="text-lg md:pl-6 lg:pl-6">
+              A fost primul meu pas în lume, prima plimbare, prima bătaie de
+              vânt pe obrăjori. Eu, însă, am ținut să-mi fac simțită prezența și
+              am plâns puțin, doar ca să fiu sigură că toți ochii rămân pe mine.
+              În brațele mamei, drumul spre casă a fost plin de căldură și
+              iubire. A fost o zi pe care nu o voi uita (deși recunosc că am
+              ațipit imediat ce am ajuns în pătuțul meu 😊).
+            </p>
+        <div className="h-10" />
 
         <p className="text-3xl text-center">🌿🌿🌿🌿🌿</p>
 
@@ -130,10 +139,12 @@ export default function Home() {
               height={450}
               priority
             />
+   
           </div>
-          <div className="h-6 md:h-0 lg:h-0" />
+            <div className="h-8 lg:h-10 md:h-10" />
+
           <div className="md:w-3/5 lg:w-3/5">
-            <p className="text-lg md:pl-6 lg:pl-6">
+            <p className="text-lg md:pl-6 lg:pl-6 lg:mt-10">
               Intr-o după-amiază senină, ieșeam din spital cu ochii mijiți de la
               lumină și cu o bentiță ușor prea mare. Mami era cu lacrimi în
               ochi, tati încerca să pară stăpân pe situație (dar avea vocea
@@ -148,14 +159,7 @@ export default function Home() {
               plin de idei, Formula 1, fotbal și… politică.
             </p>
             <div className="h-2" />
-            <p className="text-lg md:pl-6 lg:pl-6">
-              A fost primul meu pas în lume, prima plimbare, prima bătaie de
-              vânt pe obrăjori. Eu, însă, am ținut să-mi fac simțită prezența și
-              am plâns puțin, doar ca să fiu sigură că toți ochii rămân pe mine.
-              În brațele mamei, drumul spre casă a fost plin de căldură și
-              iubire. A fost o zi pe care nu o voi uita (deși recunosc că am
-              ațipit imediat ce am ajuns în pătuțul meu 😊).
-            </p>
+      
           </div>
         </div>
 
